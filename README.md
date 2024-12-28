@@ -30,7 +30,12 @@
 npm run dev
 Откройте http://localhost:3000 в браузере.
 
-Скриншоты
+Скриншоты:
+
+
+
+
+
 <img width="801" alt="image" src="https://github.com/user-attachments/assets/60ec91d5-b122-4740-a0d8-740c0a3abb0c" />
 <img width="801" alt="image" src="https://github.com/user-attachments/assets/867e23e8-a830-4369-9506-beee3cf629c4" />
 <img width="801" alt="image" src="https://github.com/user-attachments/assets/13ae480f-9641-4654-8e0a-1529c74e85f4" />
