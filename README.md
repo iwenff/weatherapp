@@ -22,7 +22,7 @@
    ```bash
    git clone https://github.com/iwenff/weatherapp.git
    Перейдите в директорию проекта:
-    cd apishitapp =)
+    cd weatherapp
 2. Установите зависимости:
     npm install
 Создайте файл .env.local и добавьте туда ключи API, если требуется.
