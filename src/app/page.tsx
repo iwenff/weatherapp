@@ -1,27 +1,19 @@
-"use client"
+import Link from 'next/link'
+import React from 'react'
 
-import axios from "axios";
-
-
-
-export default function Home() {
-  const url = `
-  https://api.open-meteo.com/v1/forecast?
-  latitude=55.751244&
-  logitude=37.618423&
-  current=temperature_2m,is_day,wind_speed_10m
-  `;
-  
-  fetch(url).then((data) => {
-    if(data.status == 200){
-      return data
-    }
-  })
-
-
+const page = () => {
   return (
-  <div>
-    <h1>{data}</h1>
-  </div>
-  );
+    <>
+    
+    <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-blue-100 to-blue-300">
+      <h1 className="text-3xl font-bold mb-6">Выберите город</h1>
+      <nav className="flex gap-6">
+        <Link href="/msc">Москва</Link>
+        <Link href="/spb">Санкт-Петербург</Link>
+      </nav>
+    </div>
+    </>
+  )
 }
+
+export default page
